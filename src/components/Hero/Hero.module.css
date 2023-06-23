@@ -1,0 +1,47 @@
+.hero{
+    display: flex;
+}
+
+.hero_title {
+    font-family: "ZCOOL XiaoWei";
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 1.56;
+
+    margin-bottom: 33px;
+}
+
+.hero_text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #404040;
+
+    margin-bottom: 55px;
+}
+
+.button_wrapper {
+    display: flex;
+}
+
+.btn_explore, .btn_read {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+
+    min-width: 135px;
+    min-height: 41px;
+    border: 1px solid #D48A5C;
+}
+
+.btn_explore {
+    color: white;
+    background-color: black;
+    margin-right: 24px;
+}
+
+.btn_read {
+    background-color: transparent;
+}
+
