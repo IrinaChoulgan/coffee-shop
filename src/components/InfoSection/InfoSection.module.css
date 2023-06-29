@@ -1,0 +1,49 @@
+.infoSection {
+    width: 1440px;
+    height: 729px;
+    background-image: url('../../assets/coffee-bg.png');
+    position: relative;
+}
+
+.infoSection_wrapper {
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.infoSection_title {
+    font-family: 'ZCOOL XiaoWei';
+    font-size: 55px;
+    font-weight: 400;
+
+    margin-bottom: 20px;
+}
+
+.infoSection_text {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-bottom: 20px;
+}
+
+.infoSection_btn {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+    cursor: pointer;
+    width: 152px;
+    height: 46px;
+    background-color:#232020;
+    border: none;
+}
+
+
