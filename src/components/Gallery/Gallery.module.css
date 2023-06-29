@@ -1,0 +1,53 @@
+.gallery_list {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 81px;
+}
+.gallery_item {
+    position: relative;
+}
+.gallery_item_title {
+    position: absolute;
+    font-family: 'ZCOOL XiaoWei';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.gallery_item_main_text {
+    position: absolute;
+    top: 32px;
+    left: 16px;
+}
+
+.gallery_item_number {
+  font-family: 'ZCOOL XiaoWei';
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.gallery_item_text {
+    position: absolute;
+    bottom: 29px;
+    left: 16px;
+
+    font-family: 'Open Sans';
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+}
+
+.gallery_bg {
+    position: absolute;
+    z-index: -1;
+    top: 22px;
+    left: -16px;
+    width: 354px;
+    height: 247px;
+    background-color: #D48A5C;
+    ;
+}

@@ -1,5 +1,6 @@
 .hero{
     display: flex;
+    margin-bottom: 166px;
 }
 
 .hero_title {
