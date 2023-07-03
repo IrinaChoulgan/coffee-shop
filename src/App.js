@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Gallery from './components/Gallery/Gallery';
 import InfoSection from './components/InfoSection/InfoSection';
+import Product from './components/Product/Product';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         <Gallery/>
       </Container>
       <InfoSection/>
+      <Container>
+        <Product/>
+      </Container>
 
     </div>
   );

@@ -1,0 +1,53 @@
+.product {
+    margin-bottom: 94px;
+    position: relative;
+
+}
+
+.product_title {
+    font-family: 'ZCOOL XiaoWei';
+    font-size: 55px;
+    font-weight: 400;
+    color:#232020;
+    text-align: center;
+
+    margin-bottom: 47px;
+}
+
+.product_img {
+    position: absolute;
+    width: 140px;
+}
+.wrapper {
+    display: grid;  
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 30px;
+    
+}
+
+.product_text_wrapper {
+   border: 3px solid #414141;
+   padding: 37px 26px 20px 118px;
+   display: flex;
+   align-items: end;
+   flex-direction: column;
+   justify-content: flex-end;
+
+}
+
+.product_text {
+    font-family: 'ZCOOL XiaoWei';
+    font-size: 30px;
+    font-weight: 400;
+    color: #232020;
+
+    margin-bottom: 23px;
+}
+
+.product_price {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 600;
+    color: #D48A5C
+
+}

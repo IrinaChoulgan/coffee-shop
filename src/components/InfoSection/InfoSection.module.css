@@ -3,6 +3,8 @@
     height: 729px;
     background-image: url('../../assets/coffee-bg.png');
     position: relative;
+
+    margin-bottom: 140px;
 }
 
 .infoSection_wrapper {
