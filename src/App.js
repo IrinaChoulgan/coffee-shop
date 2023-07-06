@@ -6,6 +6,7 @@ import Hero from './components/Hero/Hero';
 import Gallery from './components/Gallery/Gallery';
 import InfoSection from './components/InfoSection/InfoSection';
 import Product from './components/Product/Product';
+import Review from './components/Review/Review';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <InfoSection/>
       <Container>
         <Product/>
+        <Review/>
       </Container>
 
     </div>

@@ -1,0 +1,52 @@
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 87px;
+
+    position: relative;
+}
+
+.review_title {
+    font-family: 'ZCOOL XiaoWei';
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 31px;
+    color:#1C1A1A;
+}
+
+.review_text {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 39px;
+    text-align: center;
+
+    color:#5C5C5C;
+}
+
+.review_img {
+    margin-bottom: 8px;
+}
+
+.review_user_name {
+    font-family: 'ZCOOL XiaoWei';
+    font-size: 16px;
+    font-weight: 400;
+
+    color:#1C1A1A;
+}
+
+.review_left_arrow, 
+.review_right_arrow {
+   position: absolute;
+}
+
+.review_left_arrow {
+    left: 0;
+} 
+
+.review_right_arrow {
+    right: 0;
+} 
